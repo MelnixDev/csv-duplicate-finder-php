@@ -14,8 +14,10 @@ if (!is_file($autoloadPath)) {
 
 require $autoloadPath;
 
-$scriptName = basename($argv[0]);
-$arguments = array_slice($argv, 1);
+/** @var list<string> $argumentVector */
+$argumentVector = $_SERVER['argv'] ?? [];
+$scriptName = basename($argumentVector[0] ?? 'find-duplicates.php');
+$arguments = array_slice($argumentVector, 1);
 
 if ($arguments === ['--help'] || $arguments === ['-h']) {
     fwrite(

@@ -1,5 +1,7 @@
 # CSV Duplicate Finder in PHP
 
+[![CI](https://github.com/MelnixDev/Chain-of-duplicates-in-a-CSV-union-find-php/actions/workflows/ci.yml/badge.svg)](https://github.com/MelnixDev/Chain-of-duplicates-in-a-CSV-union-find-php/actions/workflows/ci.yml)
+
 [Українська версія](README_UA.md)
 
 Find connected groups of duplicate records in a CSV file using a tested

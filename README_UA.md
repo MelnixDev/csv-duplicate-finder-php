@@ -1,5 +1,7 @@
 # Пошук ланцюжків дублікатів у CSV на PHP
 
+[![CI](https://github.com/MelnixDev/Chain-of-duplicates-in-a-CSV-union-find-php/actions/workflows/ci.yml/badge.svg)](https://github.com/MelnixDev/Chain-of-duplicates-in-a-CSV-union-find-php/actions/workflows/ci.yml)
+
 [English version](README.md)
 
 Інструмент знаходить зв’язані групи дублікатів у CSV-файлі за допомогою

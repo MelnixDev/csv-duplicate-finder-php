@@ -1,6 +1,6 @@
 # CSV Duplicate Finder in PHP
 
-[![CI](https://github.com/MelnixDev/Chain-of-duplicates-in-a-CSV-union-find-php/actions/workflows/ci.yml/badge.svg)](https://github.com/MelnixDev/Chain-of-duplicates-in-a-CSV-union-find-php/actions/workflows/ci.yml)
+[![CI](https://github.com/MelnixDev/csv-duplicate-finder-php/actions/workflows/ci.yml/badge.svg)](https://github.com/MelnixDev/csv-duplicate-finder-php/actions/workflows/ci.yml)
 
 [Українська версія](README_UA.md)
 
@@ -41,8 +41,8 @@ The connected group is `{1, 2, 5}`, and every record in it receives
 ## Installation
 
 ```bash
-git clone https://github.com/MelnixDev/Chain-of-duplicates-in-a-CSV-union-find-php.git
-cd Chain-of-duplicates-in-a-CSV-union-find-php
+git clone https://github.com/MelnixDev/csv-duplicate-finder-php.git
+cd csv-duplicate-finder-php
 composer install
 ```
 

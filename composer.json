@@ -20,6 +20,9 @@
       "MelnixDev\\CsvDuplicateFinder\\Tests\\": "tests/"
     }
   },
+  "bin": [
+    "bin/find-duplicates.php"
+  ],
   "scripts": {
     "test": "phpunit",
     "analyse": "phpstan analyse --no-progress --debug",

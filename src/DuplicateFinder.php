@@ -24,6 +24,14 @@ final class DuplicateFinder
     }
 
     /**
+     * @return non-empty-list<string>
+     */
+    public function fields(): array
+    {
+        return $this->fields;
+    }
+
+    /**
      * @param list<array<string, string|null>> $rows
      *
      * @return list<array{ID: string, PARENT_ID: string}>
